@@ -9,5 +9,6 @@ module.exports = defineConfig({
     baseUrl: 'https://automationexercise.com',  
     video: false,  
     screenshotOnRunFailure: true,
+    supportFile: 'cypress/support/e2e.js',
   },
 });
